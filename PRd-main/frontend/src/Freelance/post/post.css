@@ -1,0 +1,92 @@
+ .free-contact {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.free-contact::-webkit-scrollbar{
+  display: none;
+}
+.free-contact .free-leftSide {
+  height: 112%;
+  flex: 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+
+}
+.free-contact .free-rightSide {
+  margin-top:55px;
+  height: 900px;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.free-contact .free-rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px; 
+  margin-bottom: 20px;
+  color: #333;
+}
+ 
+#free-contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
+  overflow: hidden;
+}
+#free-contact-form{
+  overflow: hidden;
+}
+#free-contact-form input,
+#free-contact-form textarea {
+  margin-bottom: 20px;
+  padding: 10px; 
+ border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+#free-contact-form input:focus,
+#free-contact-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+#free-contact-form label {
+  color: #555;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+#free-Skill,#free-salary{
+  height: 40px;
+  outline: none;
+}
+#free-contact-form button {
+ margin-left: 90px;
+ margin-top: 20px;
+ background-color: #0056b3;
+ outline: none;
+ border: none;
+ transition: all 0.8s ease;
+ cursor: pointer;
+}
+#free-contact-form button a{
+  text-decoration: none;
+  color:#fff;
+}
+
+#free-contact-form button:hover {
+  background-color: black;
+} 

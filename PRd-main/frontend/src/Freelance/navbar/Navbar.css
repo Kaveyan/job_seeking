@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+ }
+nav {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  background: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 0px;
+  flex-wrap: wrap;
+  z-index: 100;
+  position: fixed;
+  transition: all 0.5s;
+}
+.free-navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.free-nav-down{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.free-name {
+  text-decoration: none;
+  /* width: 120px; */
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+}
+.free-navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+nav ul {
+  width: 100%;
+  text-align: right;
+}
+.free-navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.free-navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+.free-navbar ul li:hover::after {
+  width: 100%;
+}
+.free-content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.free-content h1 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+.free-content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+  font-size: 14px;
+}
+.free-postJob {
+  text-decoration: none;
+}
+.free-freelance {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.free-freelance span {
+  background: #009688;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+} 
+.free-freelance:hover span {
+  width: 100%;
+}
+.free-freelance:hover {
+  border: none;
+}
+.free-userPic {
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.free-dropdown {
+  position: relative;
+}
+
+.free-dropdown-toggle {
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.free-dropdown-menu {
+  width: 150px;
+  display: none;
+  position: absolute;
+  background: black;
+  padding: 10px;
+  top: 100%;
+  list-style: none;
+  font-size: small;
+  z-index: 1;
+  justify-content: space-between;
+}
+
+.free-dropdown:hover .dropdown-menu {
+  display: block;
+ padding-bottom: 20px;
+}
+.free-searchBox {
+  padding: 4px 15px;
+  border: none;
+  font-size: 17px;
+  border-radius: 50px;
+}
+.free-display-logout {
+  width: 75px;
+  position: absolute;
+  background: black;
+  padding: 10px;
+  top: 100%;
+  color: white;
+  margin-left: 35px;
+  font-size: small;
+  display: none;
+  cursor: pointer;
+}
+
+.free-display-user {
+  position: relative;
+} 

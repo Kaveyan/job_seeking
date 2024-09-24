@@ -1,0 +1,130 @@
+.free-payment {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .free-payment .free-overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 650px;
+    overflow: hidden;
+    width: 1360px;
+  }
+  
+  .free-payment .free-overlap-group {
+    height: 565px;
+    position: relative;
+    top: 105px;
+    width: 1348px;
+  }
+  
+  .free-payment .free-rectangle {
+    background-color: #b1f9fe;
+    height: 564px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 1348px;
+  }
+  
+  .free-payment .free-div {
+    background-color: #d2f9fb;
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 81px;
+    width: 1348px;
+  }
+  .free-payment .free-div .free-pay1{
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    border-color: #000000;
+    margin-left: 90%;
+    border-radius: 20px;
+    margin-top:10px;
+   }
+   .free-pay1 a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+   }
+   .free-pay1:hover{
+    border-color: #000000;
+    background-color:#b1f9fe
+   }
+
+  
+  .free-payment .free-rectangle-2 {
+    background-color: #d2f9fb;
+    height: 73px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1348px;
+  }
+     .free-payment .free-rectangle-2 .free-pay2{
+      cursor: pointer;
+      width: 100px;
+      padding: 10px;
+      margin-top: 10px;
+      border-color: #000000;
+      margin-left: 90%;
+      border-radius: 20px;
+     }
+     .free-pay2 a{
+      color: black;
+      cursor: pointer;
+      text-decoration: none;
+     }
+     .free-pay2:hover{
+      border-color: #000000;
+      background-color:#b1f9fe
+     }
+     
+  
+  .free-payment .free-image {
+    height: 40px;
+    left: 50px;
+    object-fit: cover;
+    position: absolute;
+    top: 21px;
+    width: 40px;
+  }
+  
+  .free-payment .free-img {
+    height: 40px;
+    left: 50px;
+    object-fit: cover;
+    position: absolute;
+    top: 98px;
+    width: 40px;
+  }
+  
+  .free-payment .free-text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 131px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 108px;
+    width: 64px;
+  }
+  
+  .free-payment .free-text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 131px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+    width: 64px;
+  }

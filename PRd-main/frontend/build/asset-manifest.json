@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24c723e5.css",
+    "main.js": "/static/js/main.abde1657.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/Flt-hire.jpg": "/static/media/Flt-hire.00ad29400f18ed15acd8.jpg",
+    "static/media/Davish.jpg": "/static/media/Davish.00d3317b6adf1a092d11.jpg",
+    "static/media/kaveyan.jpg": "/static/media/kaveyan.4c1e3b895f48b3915c3e.jpg",
+    "static/media/smile.png": "/static/media/smile.9156206dcb0f4d6fa196.png",
+    "static/media/scan.png": "/static/media/scan.ccd3ba19f06acb51a14f.png",
+    "static/media/2.png": "/static/media/2.d4c941330dde551e1ac9.png",
+    "static/media/dhik.jpg": "/static/media/dhik.ed20ea0744ab1ed7c195.jpg",
+    "static/media/login.png": "/static/media/login.3331003c851555a47d4c.png",
+    "static/media/SignUp.png": "/static/media/SignUp.5ee1492a5c49b10f9c3d.png",
+    "static/media/company.png": "/static/media/company.eebe879e1d5b51597735.png",
+    "static/media/1.png": "/static/media/1.e63896e54d1a59931fc6.png",
+    "static/media/home.avif": "/static/media/home.628bba920ac0443d6556.avif",
+    "static/media/Google1.png": "/static/media/Google1.53e8aa15cb0ca6ec5566.png",
+    "static/media/3.png": "/static/media/3.8b9537fa2677a8f9bbbe.png",
+    "static/media/Home2.png": "/static/media/Home2.d54a450e49bcdb9b4e76.png",
+    "static/media/Teamlogo.png": "/static/media/Teamlogo.ae6ea34120e826b72296.png",
+    "static/media/amazon.jpg": "/static/media/amazon.35a35f83db1f6f7c2c4a.jpg",
+    "static/media/HariKrishnan.jpg": "/static/media/HariKrishnan.f7323f47d7218d9dc4bc.jpg",
+    "static/media/Harizibam.jpg": "/static/media/Harizibam.d5ec835545656a5a55ef.jpg",
+    "static/media/user.png": "/static/media/user.1513073bc736d11dce70.png",
+    "static/media/Microsoft.png": "/static/media/Microsoft.9e53f00fcaefc7961e64.png",
+    "static/media/google.png": "/static/media/google.e12914ad8afda3f6f2e8.png",
+    "static/media/Salesforce.jpg": "/static/media/Salesforce.6a052f282e487e4bd9df.jpg",
+    "static/media/add.png": "/static/media/add.3f7814da9b4063397222.png",
+    "index.html": "/index.html",
+    "main.24c723e5.css.map": "/static/css/main.24c723e5.css.map",
+    "main.abde1657.js.map": "/static/js/main.abde1657.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24c723e5.css",
+    "static/js/main.abde1657.js"
+  ]
+}

@@ -1,0 +1,48 @@
+/* MENU ITEM STYLING */
+
+.free-clientItem {
+  border-radius: 15px;
+  width: 220px;
+  height: 280px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.free-clientItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.free-clientItem div {
+  border-radius: 20px;
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.free-clientItem h1,
+.free-clientItem p {
+  text-align: center;
+  font-size: 15px;
+  padding: 1%;
+  text-decoration: none;
+  color: black;
+}
+.free-hire{
+  color: black;
+  width: 50px;
+  height: 10px;
+  border-radius: 10px;
+  align-content: top;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+.free-hire a{
+  text-decoration: none;
+  color: black;
+}
